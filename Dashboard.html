@@ -1,0 +1,238 @@
+<html >
+<head>
+  <title> Dashboard</title>
+  <meta charset="utf-8">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 550px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    .aa
+    {
+      background-color: white;
+    }
+    button
+    {
+      background-color: lightgreen;
+    }
+       h4
+       {
+         font-family: cursive;
+         font-size: 22px;
+       }
+       img
+       {
+        height: 90px;
+        width: 90px;
+       float: right;
+       margin-top: 20px;
+
+      }
+
+      p
+      {
+        color: #AA06F6;
+      }
+      h2
+      {
+        color: #FF7F50;
+      }
+      h1
+      {
+        text-align: center;
+        font-family: sans-serif;
+        color: #DA5108 ;
+      }
+      h5
+      {
+        color: #9F4817;
+        font-size: 28px;
+      }
+      .aa:hover
+{
+  transform: translateX(10px);
+  box-shadow: 0 0 20px 0 darkgrey;
+  
+}
+.bb
+{
+  background-color: black;
+}
+.size
+{
+  height: 630px;
+}
+.watch
+{
+  width: 100px;
+  height: 50px;
+  font-size: 40px;
+  color: lightseagreen ;
+
+}
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse visible-xs">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Dashboard</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+       <!--  <li class="active"><a href="#">Dashboard</a></li>
+        --> <li><a href="#">Age</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav hidden-xs bb size">
+      <h2><b>Dashboard</b></h2>
+      <ul class="nav nav-pills nav-stacked">
+        <!-- <li class="active"><a href="#section1">Dashboard</a></li> -->
+        <li><a href="#section2">Home</a></li>
+        <li><a href="#section3">Profile</a></li>
+        <li><a href="#section3">Project</a></li>
+        <li><a href="#section3">Analytic</a></li>
+        <li><a href="#section3">Tasks</a></li>
+        <li><a href="#section3">Help</a></li><br><br><br><br><br><br><br><br>
+        <div id="MyClockDisplay" class="watch" onload="showTime()"></div><br><br> 
+      
+         </ul>
+       </div>
+    <br>
+    
+    <div class="col-sm-9">
+      <div class="well ">
+        
+       <h1>Welcome To Studyhub</h1>
+
+              </div>
+      <h5><b><u><i>Skills</b></u></i></h5>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="well aa ">
+            <h4>Website designer</h4>
+            <p> Join over 1 Million student</p>
+            <button type="button" class="btn btn-outline-danger">Get Started</button>
+ 
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well aa ">
+            <h4>Wordpress</h4>
+            <p> join over 2 Million student</p>
+            <button type="button" class="btn btn-outline-danger">Get Started</button>
+ 
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well aa ">
+            <h4>Graphic Designer</h4>
+            <p> join over 2 Million student</p> 
+            <button type="button" class="btn btn-outline-danger">Get Started</button>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well aa ">
+            <h4>IOS Dev</h4>
+            <p>join over 2 Million student</p>
+            <button type="button" class="btn btn-outline-danger">Get Started</button>
+ 
+          </div>
+        </div>
+      </div>
+     
+
+  <h5><b><u><i>My Courses</b></i></u></h5>
+  
+        <div class="row">
+        <div class="col-sm-4">
+          <div class="well aa ">
+            <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png">
+              <h3><b>HTML</b></h3>
+           <p> 80% progress</p> 
+
+            <button type="button" class="btn btn-outline-success">Continue</button>
+
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="well aa ">
+            <img src="https://img.freepik.com/free-icon/css_318-674222.jpg?w=2000">
+              <h3><b>CSS</h3></b>
+           <p> 50% progress</p> 
+
+            <button type="button" class="btn btn-outline-success">Continue </button>
+
+          </div>
+        </div>
+             <div class="col-sm-4">
+          <div class="well aa ">
+            <img src="https://www.citypng.com/public/uploads/small/11662226392uom4gsi9ddb1c81ipfx2u4imargvwq7uskhdui1pj4f6xufjz0jkfzqzduhjuifts0dzcnykgszw6isfutq2nlwb51ef4gm0dt8d.png">
+              <h3><b>JavaScript</b></h3>
+           <p> 30% progress</p> 
+
+            <button type="button" class="btn btn-outline-success">Continue</button>
+
+          </div>
+        </div>
+          </div>
+        </div>
+        <script>
+function showTime(){
+    var date = new Date();
+    var h = date.getHours(); // 0 - 23
+    var m = date.getMinutes(); // 0 - 59
+    var s = date.getSeconds(); // 0 - 59
+    var session = "AM";
+    
+    if(h == 0){
+        h = 12;
+    }
+    
+    if(h > 12){
+        h = h - 12;
+        session = "PM";
+    }
+    
+    h = (h < 10) ? "0" + h : h;
+    m = (m < 10) ? "0" + m : m;
+    s = (s < 10) ? "0" + s : s;
+    
+    var time = h + ":" + m + ":" + s + session;
+    document.getElementById("MyClockDisplay").innerText = time;
+    document.getElementById("MyClockDisplay").textContent = time;
+    
+    setTimeout(showTime, 1000);
+    
+}
+
+
+showTime();
+
+</script>
+
+       
+</body>
+</html>
